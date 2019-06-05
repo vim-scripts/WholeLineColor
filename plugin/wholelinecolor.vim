@@ -7,11 +7,11 @@ if !exists("g:wholelinecolor_leader")
 endif
 
 if !exists("g:wholelinecolor_next")
-    let g:wholelinecolor_next='<c-n>'
+    let g:wholelinecolor_next='<space><c-n>'
 endif
 
 if !exists("g:wholelinecolor_prev")
-    let g:wholelinecolor_prev='<c-p>'
+    let g:wholelinecolor_prev='<space><c-p>'
 endif
 
 " starting sign id (change if conflicting with other signs)
